@@ -1,0 +1,14 @@
+import React from 'react';
+import { Router, useRouter } from 'next/router';
+
+const ProductItem = () => {
+  const { query: { productId } } = useRouter();
+
+  return (
+    <div>
+      ProductItem: {productId}
+    </div>
+  )
+}
+
+export default ProductItem;
