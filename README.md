@@ -1,1 +1,1 @@
-# nextjs-avocado
+# nextjs
